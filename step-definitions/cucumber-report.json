@@ -1,0 +1,98 @@
+[
+  {
+    "elements": [
+      {
+        "id": "login-validation;i-want-to-see-the-home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "I want to see the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I go to the website \"https://www.myntra.com/login?referer=https://www.myntra.com/\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I expect the title of the page \"Login\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I fill \"email\" field with \"test@abc.com\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I fill \"password\" field with \"invalid\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the button \"login\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get error message",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "close the browser",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "failed",
+              "duration": 16095327961,
+              "error_message": "WebDriverError: invalid session id\n  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 6.1.7601 SP1 x86_64)\n    at Object.checkLegacyResponse (E:\\Assignment\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\error.js:529:15)\n    at parseHttpResponse (E:\\Assignment\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at doSend.then.response (E:\\Assignment\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\http.js:441:30)\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: WebDriver.getTitle()\n    at thenableWebDriverProxy.schedule (E:\\Assignment\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\webdriver.js:807:17)\n    at thenableWebDriverProxy.getTitle (E:\\Assignment\\node_modules\\selenium-cucumber-js\\node_modules\\selenium-webdriver\\lib\\webdriver.js:1000:17)\n    at World.<anonymous> (E:\\Assignment\\step-definitions\\title-definition.js:20:25)"
+            },
+            "hidden": true,
+            "match": {
+              "location": "E:\\Assignment\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-validation",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Login validation",
+    "tags": [],
+    "uri": "E:/Assignment/features/title.feature"
+  }
+]

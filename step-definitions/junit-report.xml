@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-validation;i-want-to-see-the-home-page" tests="7" failures="0" skipped="7">
+        <properties>
+            <property name="URI" value="E:/Assignment/features/title.feature">
+            </property>
+        </properties>
+        <testcase name="Given I go to the website &quot;https://www.myntra.com/login?referer=https://www.myntra.com/&quot;" classname="login-validation;i-want-to-see-the-home-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I expect the title of the page &quot;Login&quot;" classname="login-validation;i-want-to-see-the-home-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I fill &quot;email&quot; field with &quot;test@abc.com&quot;" classname="login-validation;i-want-to-see-the-home-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I fill &quot;password&quot; field with &quot;invalid&quot;" classname="login-validation;i-want-to-see-the-home-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on the button &quot;login&quot;" classname="login-validation;i-want-to-see-the-home-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get error message" classname="login-validation;i-want-to-see-the-home-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then close the browser" classname="login-validation;i-want-to-see-the-home-page">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
